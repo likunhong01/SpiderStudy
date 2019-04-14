@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="915f49f3-e22c-477a-9605-e914ceee5b09" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/04s_fanyi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_request小技巧.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +12,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/$04s_fanyi.coverage" NAME="04s_fanyi Coverage Results" MODIFIED="1555239413110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$04s_fanyi.coverage" NAME="04s_fanyi Coverage Results" MODIFIED="1555240033319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$10_request.coverage" NAME="10_request小技巧 Coverage Results" MODIFIED="1555240660002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$02_tieba_spider.coverage" NAME="02_tieba_spider Coverage Results" MODIFIED="1555083106729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$05_proxies.coverage" NAME="05_proxies Coverage Results" MODIFIED="1555215538825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$08_cookie.coverage" NAME="08_cookie字典 Coverage Results" MODIFIED="1555229932526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -54,14 +54,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04s_fanyi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04s_fanyi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04s_fanyi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="162">
+              <caret line="15" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="15" />
               <folding>
                 <element signature="e#131#147#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10_request小技巧.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10_request小技巧.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="e#132#147#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="retrying.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/retrying.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="59" column="40" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -92,6 +113,7 @@
         <option value="$PROJECT_DIR$/08_cookie字典.py" />
         <option value="$PROJECT_DIR$/09_request保存图片.py" />
         <option value="$PROJECT_DIR$/04s_fanyi.py" />
+        <option value="$PROJECT_DIR$/10_request小技巧.py" />
       </list>
     </option>
   </component>
@@ -132,6 +154,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,26 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.04s_fanyi">
-    <configuration name="04_fanyi" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_fanyi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.10_request小技巧">
     <configuration name="04s_fanyi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,20 +245,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="10_request小技巧" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_request小技巧.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.04_fanyi" />
       <item itemvalue="Python.05_proxies" />
       <item itemvalue="Python.08_cookie字典" />
       <item itemvalue="Python.09_request保存图片" />
       <item itemvalue="Python.04s_fanyi" />
+      <item itemvalue="Python.10_request小技巧" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10_request小技巧" />
         <item itemvalue="Python.04s_fanyi" />
         <item itemvalue="Python.09_request保存图片" />
         <item itemvalue="Python.08_cookie字典" />
         <item itemvalue="Python.05_proxies" />
-        <item itemvalue="Python.04_fanyi" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +296,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -421,10 +445,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04s_fanyi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="162">
+          <caret line="15" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="15" />
           <folding>
             <element signature="e#131#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/retrying.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_request小技巧.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#132#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
