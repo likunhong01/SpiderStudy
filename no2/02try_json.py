@@ -16,8 +16,20 @@ print(type(ret1))
 with open('douban.json', 'w', encoding='utf-8') as f:
 	f.write(json.dumps(ret1,ensure_ascii=False,indent=2))	# indent表示每级之间空两格，ensreascii表示中文不转化为编码
 
-with open('douban.json', 'r', encoding='utf-8') as f:
-	ret2 = f.read()
-	ret3 = json.loads(ret2)
-	print(ret3)
-	print(type(ret3))
+# with open('douban.json', 'r', encoding='utf-8') as f:
+# 	ret2 = f.read()
+# 	ret3 = json.loads(ret2)
+# 	print(ret3)
+# 	print(type(ret3))
+
+'''json的load和dump是针对包含json的类文件对象使用的，json的loads和dumps是针对json字符串使用的
+具有read()和write()方法的对象就是类文件对象，比如f = open('a.text','r')就是类文件对象'''
+# 使用json.load提取类文件对象中的数据
+with open('douban.json','r',encoding='utf-8') as f:
+	ret4 = json.load(f)
+	print(ret4)
+	print(type(ret4))
+
+# dump可以把python类型放入文件对象中
+with open('douban.json','w',encoding='utf-8') as f:
+	json.dump(ret1,f,)
