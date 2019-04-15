@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="915f49f3-e22c-477a-9605-e914ceee5b09" name="Default" comment="" />
+    <list default="true" id="915f49f3-e22c-477a-9605-e914ceee5b09" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/no2/01parse_url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/no2/02try_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/no2/parse_url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01try_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/01try_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_tieba_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/02_tieba_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/03_transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_fanyi.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/04_fanyi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04s_fanyi.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/04s_fanyi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_proxies.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/05_proxies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_loginRenRen.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/06_loginRenRen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_login_with_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/07_login_with_cookie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_cookie字典.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/08_cookie字典.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_request保存图片.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/09_request保存图片.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_request小技巧.py" beforeDir="false" afterPath="$PROJECT_DIR$/no1/10_request小技巧.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.png" beforeDir="false" afterPath="$PROJECT_DIR$/no1/a.png" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,28 +40,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="09_request保存图片.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_request保存图片.py">
+        <entry file="file://$PROJECT_DIR$/no1/09_request保存图片.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="08_cookie字典.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_cookie字典.py">
+        <entry file="file://$PROJECT_DIR$/no1/08_cookie字典.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="506">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="04_fanyi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_fanyi.py">
+        <entry file="file://$PROJECT_DIR$/no1/04_fanyi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="550">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#131#142#0" expanded="true" />
               </folding>
@@ -53,10 +70,10 @@
         </entry>
       </file>
       <file leaf-file-name="04s_fanyi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04s_fanyi.py">
+        <entry file="file://$PROJECT_DIR$/no1/04s_fanyi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="15" />
+            <state relative-caret-position="286">
+              <caret line="15" selection-start-line="14" selection-start-column="13" selection-end-line="15" />
               <folding>
                 <element signature="e#131#147#0" expanded="true" />
               </folding>
@@ -64,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10_request小技巧.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10_request小技巧.py">
+      <file leaf-file-name="10_request小技巧.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no1/10_request小技巧.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#132#147#0" expanded="true" />
               </folding>
@@ -76,10 +93,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="01parse_url.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no2/01parse_url.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="parse_url.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/no2/parse_url.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="retrying.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/retrying.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="1210">
               <caret line="59" column="40" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="40" />
             </state>
           </provider>
@@ -112,6 +143,7 @@
         <option value="$PROJECT_DIR$/09_request保存图片.py" />
         <option value="$PROJECT_DIR$/04s_fanyi.py" />
         <option value="$PROJECT_DIR$/10_request小技巧.py" />
+        <option value="$PROJECT_DIR$/no2/01parse_url.py" />
       </list>
     </option>
   </component>
@@ -121,9 +153,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="355" />
-    <option name="y" value="90" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="432" />
+    <option name="y" value="88" />
     <option name="width" value="1296" />
     <option name="height" value="777" />
   </component>
@@ -141,6 +173,16 @@
               <item name="爬虫" type="b2602c69:ProjectViewProjectNode" />
               <item name="爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="爬虫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="no1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="爬虫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="no2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -153,6 +195,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\98650\PycharmProjects\爬虫\no2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\98650\PycharmProjects\爬虫\no2" />
+      <recent name="C:\Users\98650\PycharmProjects\爬虫\no1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,7 +231,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04s_fanyi.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\98650\PycharmProjects\爬虫\no1\04s_fanyi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,7 +250,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_proxies.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\98650\PycharmProjects\爬虫\no1\05_proxies.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,7 +269,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_cookie字典.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\98650\PycharmProjects\爬虫\no1\08_cookie字典.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,7 +288,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_request保存图片.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\98650\PycharmProjects\爬虫\no1\09_request保存图片.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,7 +307,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_request小技巧.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\98650\PycharmProjects\爬虫\no1\10_request小技巧.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,12 +352,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36666667" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36666667" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11560226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.117219076" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -317,6 +367,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,114 +377,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01try_params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_transform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_tieba_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_fanyi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="e#131#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01try_params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_tieba_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/黑洞-第1页.html" />
-    <entry file="file://$PROJECT_DIR$/03_transform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01try_params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="8" selection-start-line="8" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05_proxies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06_loginRenRen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_login_with_cookie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_tieba_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09_request保存图片.py">
+    <entry file="file://$PROJECT_DIR$/no1/09_request保存图片.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_cookie字典.py">
+    <entry file="file://$PROJECT_DIR$/no1/08_cookie字典.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="506">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_fanyi.py">
+    <entry file="file://$PROJECT_DIR$/no1/04_fanyi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="550">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#131#142#0" expanded="true" />
@@ -441,9 +401,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04s_fanyi.py">
+    <entry file="file://$PROJECT_DIR$/no1/04s_fanyi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="286">
           <caret line="15" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="15" />
           <folding>
             <element signature="e#131#147#0" expanded="true" />
@@ -453,18 +413,167 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/retrying.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="1210">
           <caret line="59" column="40" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10_request小技巧.py">
+    <entry file="file://$PROJECT_DIR$/no1/10_request小技巧.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="748">
           <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="e#132#147#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/01try_params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/03_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/02_tieba_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/04_fanyi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#131#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/01try_params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/02_tieba_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑洞-第1页.html" />
+    <entry file="file://$PROJECT_DIR$/no1/03_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/01try_params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/05_proxies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/06_loginRenRen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/07_login_with_cookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/02_tieba_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/09_request保存图片.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/08_cookie字典.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/04_fanyi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#131#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/04s_fanyi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" selection-start-line="14" selection-start-column="13" selection-end-line="15" />
+          <folding>
+            <element signature="e#131#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/retrying.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no1/10_request小技巧.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#132#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no2/01parse_url.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no2/parse_url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
