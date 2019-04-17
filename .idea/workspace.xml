@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="915f49f3-e22c-477a-9605-e914ceee5b09" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/no04通用爬虫/QiushibaikeSpider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/no04通用爬虫/TiebaSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/no04通用爬虫/TiebaSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no04通用爬虫/QiushibaikeSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/no04通用爬虫/QiushibaikeSpider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,21 +29,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QiushibaikeSpider.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QiushibaikeSpider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/no04通用爬虫/QiushibaikeSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="70" column="88" selection-start-line="70" selection-start-column="88" selection-end-line="70" selection-end-column="88" />
+            <state relative-caret-position="132">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#132#147#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="段子.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/no04通用爬虫/段子.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="04测试lxml.py" pinned="false" current-in-tab="false">
@@ -106,8 +99,8 @@
         <option value="$USER_HOME$/Desktop/python黑马/黑马视频/课间11-爬虫开发阶段-爬虫基础-MongoDB数据库-爬虫Scrapy框架和案例/爬虫代码V3.1/day04/code/03_try_lxml.py" />
         <option value="$PROJECT_DIR$/no03正则/04测试lxml.py" />
         <option value="$PROJECT_DIR$/no04通用爬虫/TiebaSpider.py" />
-        <option value="$PROJECT_DIR$/no04通用爬虫/QiushibaikeSpider.py" />
         <option value="$PROJECT_DIR$/no04通用爬虫/段子.txt" />
+        <option value="$PROJECT_DIR$/no04通用爬虫/QiushibaikeSpider.py" />
       </list>
     </option>
   </component>
@@ -117,7 +110,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="886" />
     <option name="y" value="55" />
     <option name="width" value="1296" />
@@ -316,16 +309,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37407407" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2685185" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12045271" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12045271" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
@@ -715,18 +707,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/no04通用爬虫/段子.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/no04通用爬虫/QiushibaikeSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="70" column="88" selection-start-line="70" selection-start-column="88" selection-end-line="70" selection-end-column="88" />
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#132#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no04通用爬虫/段子.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

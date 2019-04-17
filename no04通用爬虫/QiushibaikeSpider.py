@@ -37,7 +37,8 @@ class QiuShiBaiKe:
         for div in divs:
             duanzi = {}
             # 获取作者
-            duanzi['author'] = div.xpath('.//h2/text()')[0].replace('\n', '') if len(div.xpath('.//h2/text()')) > 0 else None
+            duanzi['author'] = div.xpath('.//h2/text()')[0].replace('\n', '') if len(div.xpath(
+                './/h2/text()')) > 0 else None
 
             # 获取内容，因为内容放在了不同标签中，需要连起来
             if len(div.xpath('.//div[@class="content"]/span/text()')) > 0:
@@ -87,28 +88,49 @@ if __name__ == '__main__':
     qiu.run()
 
 
-# url = 'https://www.qiushibaike.com/text/page/1/'
+
+
+
+
+
+# # 请求头
 # headers = {
 #     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6784.400 QQBrowser/10.3.2667.400"
 # }
-# response = requests.get(url,headers=headers)
-# html_str = response.content.decode()
 #
-# # print(html_str)
-# html = etree.HTML(html_str)
+# # 要爬取的起始页面
+# url = 'https://www.qiushibaike.com/text/page/1/'
+# while url is not None:
+#     # 请求数据获得响应
+#     response = requests.get(url, headers=headers)
+#     html_str = response.content.decode()
 #
-# divs = html.xpath('//*[@id="content-left"]/div')
+#     # 生成HTML对象
+#     html = etree.HTML(html_str)
 #
-# for div in divs:
-#     duanzi = {}
-#     duanzi['author'] =  div.xpath('.//h2/text()')[0].replace('\n','')
-#     strs = div.xpath('.//div[@class="content"]/span/text()')
-#     content = ''
-#     for str in strs:
-#         content += str
-#     duanzi['content'] = content.replace('\n','')
-#     print(duanzi['author']+'说：'+duanzi['content'])
+#     # 找到放每个段子的父div
+#     divs = html.xpath('//*[@id="content-left"]/div')
 #
-# root_url = 'https://www.qiushibaike.com'
-# next_url = root_url + html.xpath('//*[@id="content-left"]/ul/li[8]/a/@href')[0]
-# print(next_url)
+#     # 对每个div（段子）循环
+#     for div in divs:
+#         duanzi = {}  # 每个段子装在一个字典里，有作者和内容
+#         # 获取作者
+#         duanzi['author'] = div.xpath('.//h2/text()')[0].replace('\n', '') if len(
+#             div.xpath('.//h2/text()')) > 0 else None
+#         # 获取内容，因为内容是放在不同div所以要拼接
+#         if len(div.xpath('.//div[@class="content"]/span/text()')) > 0:
+#             strs = div.xpath('.//div[@class="content"]/span/text()')
+#             content = ''
+#             for str in strs:
+#                 content += str
+#             duanzi['content'] = content.replace('\n', '')
+#         else:
+#             duanzi['content'] = None
+#         # 打印测试
+#         print(duanzi['author'] + '说：' + duanzi['content'])
+#
+#     # 根网页
+#     root_url = 'https://www.qiushibaike.com'
+#     # 下一页地址
+#     url = root_url + html.xpath('//*[@id="content-left"]/ul/li[8]/a/@href')[0] if len(
+#         html.xpath('//*[@id="content-left"]/ul/li[8]/a/@href')) > 0 else None
