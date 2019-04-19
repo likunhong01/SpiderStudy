@@ -14,7 +14,7 @@ driver.get('https://www.douban.com/')
 
 # 填充用户名密码
 driver.find_element_by_id('username').send_keys('18679959330')
-driver.find_element_by_id('password').send_keys('123')
+driver.find_element_by_id('password').send_keys('35278479')
 
 '''这里可能有验证码，如果有验证码就用云打码平台搞定'''
 # 获取图片url地址
@@ -22,11 +22,11 @@ yzm_url = driver.find_element_by_id('captcha_image').get_attribute('src')
 yzm_content =requests.get(yzm_url).content
 
 # 云打码获取
-from yundama.dama import indetify
-yzm_code = indetify(yzm_content)
-
-# 输入验证码
-driver.find_element_by_id('captcha_field').send_keys(yzm_code)
+# from yundama.dama import indetify
+# yzm_code = indetify(yzm_content)
+#
+# # 输入验证码
+# driver.find_element_by_id('captcha_field').send_keys(yzm_code)
 
 
 # 点击提交
