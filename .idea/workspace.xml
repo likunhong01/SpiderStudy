@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="915f49f3-e22c-477a-9605-e914ceee5b09" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/no05动态html/phantom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/no05动态html/斗鱼爬虫.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/no05动态html/01selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/no05动态html/01selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/no05动态html/02豆瓣登录.py" beforeDir="false" afterPath="$PROJECT_DIR$/no05动态html/02豆瓣登录.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/no05动态html/ghostdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/no05动态html/ghostdriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no05动态html/phantom.py" beforeDir="false" afterPath="$PROJECT_DIR$/no05动态html/phantom.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,18 +28,19 @@
     <SUITE FILE_PATH="coverage/$TiebaSpider.coverage" NAME="TiebaSpider Coverage Results" MODIFIED="1555493552265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/no04通用爬虫" />
     <SUITE FILE_PATH="coverage/$10_request.coverage" NAME="10_request小技巧 Coverage Results" MODIFIED="1555240660002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$04_douban_spider.coverage" NAME="04_douban_spider Coverage Results" MODIFIED="1555343838367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/no2" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="斗鱼爬虫 Coverage Results" MODIFIED="1555747112322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/no05动态html" />
     <SUITE FILE_PATH="coverage/$02_tieba_spider.coverage" NAME="02_tieba_spider Coverage Results" MODIFIED="1555083106729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$05_proxies.coverage" NAME="05_proxies Coverage Results" MODIFIED="1555215538825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$phantom.coverage" NAME="phantom Coverage Results" MODIFIED="1555689383766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/no05动态html" />
+    <SUITE FILE_PATH="coverage/$phantom.coverage" NAME="phantom Coverage Results" MODIFIED="1555747515950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/no05动态html" />
     <SUITE FILE_PATH="coverage/$01.coverage" NAME="01正则 Coverage Results" MODIFIED="1555388749402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/no03正则" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01selenium.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01selenium.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/no05动态html/01selenium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="396">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -49,8 +48,8 @@
       <file leaf-file-name="02豆瓣登录.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/no05动态html/02豆瓣登录.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="220">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="e#132#162#0" expanded="true" />
               </folding>
@@ -58,10 +57,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="斗鱼爬虫.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/no05动态html/斗鱼爬虫.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phantom.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no05动态html/phantom.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="03selenium更多操作.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/no05动态html/03selenium更多操作.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="814">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#132#162#0" expanded="true" />
@@ -113,8 +130,9 @@
         <option value="$PROJECT_DIR$/no04通用爬虫/bilibili.py" />
         <option value="$PROJECT_DIR$/no05动态html/03selenium更多操作.py" />
         <option value="$PROJECT_DIR$/no05动态html/02豆瓣登录.py" />
-        <option value="$PROJECT_DIR$/no05动态html/phantom.py" />
         <option value="$PROJECT_DIR$/no05动态html/01selenium.py" />
+        <option value="$PROJECT_DIR$/no05动态html/斗鱼爬虫.py" />
+        <option value="$PROJECT_DIR$/no05动态html/phantom.py" />
       </list>
     </option>
   </component>
@@ -125,10 +143,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="562" />
-    <option name="y" value="85" />
+    <option name="x" value="561" />
+    <option name="y" value="84" />
     <option name="width" value="1296" />
-    <option name="height" value="740" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -205,7 +223,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01selenium">
+  <component name="RunManager" selected="Python.phantom">
+    <configuration name="斗鱼爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/no05动态html" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/no05动态html/斗鱼爬虫.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="01selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,25 +276,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/no05动态html/02豆瓣登录.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="QiushibaikeSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/no04通用爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/no04通用爬虫/QiushibaikeSpider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,19 +320,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.QiushibaikeSpider" />
       <item itemvalue="Python.多线程爬虫qiushi" />
       <item itemvalue="Python.01selenium" />
       <item itemvalue="Python.02豆瓣登录" />
       <item itemvalue="Python.phantom" />
+      <item itemvalue="Python.斗鱼爬虫" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.01selenium" />
         <item itemvalue="Python.phantom" />
+        <item itemvalue="Python.斗鱼爬虫" />
+        <item itemvalue="Python.01selenium" />
         <item itemvalue="Python.02豆瓣登录" />
         <item itemvalue="Python.多线程爬虫qiushi" />
-        <item itemvalue="Python.QiushibaikeSpider" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +350,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -340,9 +358,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50185186" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5092593" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17057396" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17542441" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -365,13 +383,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/no2 json/parse_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/no2 json/影院热映.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -650,9 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#132#147#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,9 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="109" lean-forward="true" selection-end-line="120" selection-end-column="13" />
-          <folding>
-            <element signature="e#134#149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,15 +696,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no05动态html/01selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no05动态html/02豆瓣登录.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
-            <element signature="e#157#176#0" expanded="true" />
+            <element signature="e#132#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/no05动态html/03selenium更多操作.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="814">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#132#162#0" expanded="true" />
@@ -712,25 +728,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/no05动态html/phantom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="352">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no05动态html/02豆瓣登录.py">
+    <entry file="file://$PROJECT_DIR$/no05动态html/斗鱼爬虫.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#132#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no05动态html/01selenium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="355">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
